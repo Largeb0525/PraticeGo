@@ -7,5 +7,6 @@ func Pratest() { //字首大寫=public 給 package main用
 	//conditiontest()
 	//arraytest()
 	//maptest()
-	structtest()
+	//structtest()
+	jsontest()
 }
