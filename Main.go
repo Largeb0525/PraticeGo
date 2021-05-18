@@ -1,10 +1,10 @@
 package main
 
 import (
-	"abc/pratice"
+	"abc/server"
 )
 
 func main() {
-	pratice.Pratest()
-	
+	server.Init()
+
 }

@@ -8,5 +8,8 @@ func Pratest() { //字首大寫=public 給 package main用
 	//arraytest()
 	//maptest()
 	//structtest()
-	jsontest()
+	//jsontest()
+	go gintest()
+	//mongotest()
+	linetest()
 }

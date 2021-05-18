@@ -31,7 +31,7 @@ func jsontest()  {
 	
 	playercopy:=wow{}
 	
-	err= json.Unmarshal(out, &playercopy)
+	err = json.Unmarshal(out, &playercopy)
 	if err != nil {
 		log.Print(err)
 	}
