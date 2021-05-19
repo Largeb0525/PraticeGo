@@ -9,5 +9,5 @@ func gininit() {
 
 	router.POST("/callback", post)
 
-	router.Run()
+	router.Run(:8080)
 }
